@@ -1,0 +1,7 @@
+http://localhost:3000   R/ entre desde el puerto y al cargar aparecce "servidor activo"
+
+http://localhost:3000/saludo    R/ En este instale thunder client para visualizarlo y al buscarlo aparece 
+"Hola comunidad"
+
+http://localhost:3000/mensaje/juan    R/ En este mismo con thunder client pude visualizarlo, en este 
+al buscarlo aparece el mensaje "Hola juan"

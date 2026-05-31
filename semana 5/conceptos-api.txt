@@ -1,0 +1,19 @@
+app.post('/reporte', (req, res) => {
+  const mensaje = req.body.mensaje;
+  res.json({
+    estado: "Reporte recibido",
+    mensaje: mensaje
+  });
+});  
+
+
+¿Que hace esta ruta?
+Respuesta/ Lo que hace esta ruta es enviar peticiones bajo el metodo POST, recibe los datos "reportes" enviados 
+por el usuario, y respode al cliente enviando un objeto en formato JSON que confirma la recepción del reporte y 
+devuelve el mismo mensaje que se recibió.
+
+¿Para que podria servir en una aplicacion comunitaria?
+Respuesta/ En el contexto de una comunidad, puede ser vecinos de barrios comunas o conjuntos de apartamentos,
+ en una aplicacion seria para reportar:
+daños, problemas de infraestructura, quejas, avisos Ejemplo:En la torre 5 de el conjunto La paz hay una lampara dañada.
+Crear un buzón digital donde los ciudadanos envíen reportes sin que se expongan públicamente en una URL.
